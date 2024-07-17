@@ -1,11 +1,11 @@
 # Análisis de ventas en tienda SuperOfertas
 
 ## Contexto
-Este conjunto de datos contiene información detallada sobre las ventas de una tienda. Incluye datos sobre diversos productos vendidos, la fecha de cada venta, la categoría de los productos, la catidad vendida, entre otros aspectos relevantes.
+Este conjunto de datos contiene información detallada sobre las ventas de una tienda. Incluye datos sobre diversos productos vendidos, la fecha de cada venta, la categoría de los productos, la cantidad vendida, entre otros aspectos relevantes.
 Estos datos son escenciales para comprender el rendimiento de la tienda e identificar tendencias en las ventas.
 
 ## Objetivo
-Transformar y visualizar los datos de manera que permita a los propietarios de tienda obtener información valiosa que ayude a la gestión y toma de decisiones estratégicas en la tienda.
+Transformar y visualizar los datos de manera que permita a los propietarios de la tienda obtener información valiosa que ayude a la gestión y toma de decisiones estratégicas en la tienda.
 
 ## Resultados del análisis
 1. Referente al análisis realizado "Transacciones totales por categoría", podemos concluir que existe una variación pequeña (5%)  entre las transacciones por categoría. Por ejemplo: La categoria "Ropa" registró 351 de las 1000 transacciones, lo cual representa un 35.1%, mientras la categoria "Belleza" 307 transacciones que representa un 30.7%, finalmente "Eléctronica" con 342 transacciones que nos indica un 34.2% del total. Ahora bien, si segmentamos por género, el "Femenino" muestra 510 de las 1000 transacciones con un 51% y el "Masculino" 490 con un 49%. Así pues, se mantiene un equilibrio.
@@ -25,21 +25,25 @@ Transformar y visualizar los datos de manera que permita a los propietarios de t
 
 
 
-2. Respecto al análisis realizado al "Total de ventas por género", podemos concluir que se mantiene una paridad entre "Femenino" y "Masculino", por ejemplo: El género femenino registró  ventas de $232,840 del total de $456,000, lo que representa el 51%, y por consecuencia el género masculino indica $223,160 que representa un 49% del total. Asimismo, es importante señalar que, revisando la columna de fechas, las ventas por género se mantinen practicamente iguales a través de 2023, en 2024, género masculino no registro ventas durante el primer trimestre.
+2. Respecto al análisis realizado al "Total de ventas por género", podemos concluir que se mantiene una paridad entre "Femenino" y "Masculino", por ejemplo: El género femenino registró  ventas de $232,840 del total de $456,000, lo que representa el 51%, y por consecuencia el género masculino indica $223,160 que representa un 49% del total. Asimismo, es importante señalar que, revisando la columna de fechas, las ventas por género se mantinen practicamente iguales a través de 2023, se observa una tendencia de incremento de ventas en el 4o trimestre, en 2024, género masculino no registro ventas durante el primer trimestre.
 
 ![tabla ventas por genero](https://github.com/user-attachments/assets/b55e9185-b427-4f52-8330-9101ba3d458b)
 
 ![ventas genero](https://github.com/user-attachments/assets/f23b7886-ef08-4acc-8e58-c2b7a664d458)
 
 
+![tabla y grafica ventas por genero y fecha](https://github.com/user-attachments/assets/101ab484-cf10-4cc2-ab52-ec94dc9801b9)
+
+
+
 3. Ahora bien, si realizamos un filtro por edad, se tiene registrada información de clientes entre 18 a 64 años de edad. Al filtrar los 10 mejores (Femenino y Masculino), podemos observar los valores más altos mujeres de 34 años ($12,050) y hombres de 51 años ($8,795), asimismo, las mayores cónsumos se registraron en el segmento de 43 años (ambos) con un total de $17,970.
 
-![tabla ventas 10 mejores](https://github.com/user-attachments/assets/45281fd3-b763-4e0f-814c-0beeed76d31b)
+
 
 ![ventas 10 mejores](https://github.com/user-attachments/assets/ab391967-2257-4d6d-a258-428bc7abf710)
 
 
-4. Es importante resaltar que,  al realizar elde los diez valores inferiores registrados de ventas  por edad, observamos que a los 39 años (femenino y masculino) se registra el menor consumo con $4,595 y las mujeres de 45 años con un valor obtenido en ventas de $585.
+4. Es importante resaltar que,  al realizar el de los diez valores inferiores registrados de ventas  por edad, observamos que a los 39 años (femenino y masculino) se registra el menor consumo con $4,595 y las mujeres de 45 años con un valor obtenido en ventas de $585.
 
 
 ![tabla ventas 10 inferiores](https://github.com/user-attachments/assets/2a51aff4-5409-4b4d-b50e-b8876e8ad4b3)
@@ -50,4 +54,4 @@ Transformar y visualizar los datos de manera que permita a los propietarios de t
 
 
 
-5. Con base a los análisis realizados, la alta dirección debe enfocar campañas de ventas en los segmentos ya identificados por categoróa, género y edad.
+5. Con base a los análisis realizados, la alta dirección debe enfocar campañas de ventas en los segmentos ya identificados por categoría, género y edad.
